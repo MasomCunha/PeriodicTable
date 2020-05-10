@@ -1,0 +1,39 @@
+#table{
+    display:grid;
+    grid-template-columns: repeat(18, auto);
+    width: 90%;
+    height: 90%;
+    margin: auto-*;
+    max-width: 100%;
+   
+}
+
+.element-2{
+    grid-column-start: -2;
+}
+
+.element-5,
+.element-13{
+    grid-column-start: 13;
+}
+
+.element-72,
+.element-104{
+    grid-column-start: 4;
+}
+
+.element-1{
+    background-color: rgb(181, 187, 187);
+    grid-template-columns: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+.element-2{
+    background-color: aqua;
+    grid-template-columns: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+
+
+
